@@ -35,13 +35,15 @@ header a:link{
 }
 .navhead{
     text-align: center;
+    padding: 2.0rem;
 }
 nav a{
-    padding: 2.0rem;
+    padding: 2.5rem;
 }
 
 .bigimg{
     text-align:center;
+    padding: 1.0rem;
 }
 body {
 	line-height: 1;
