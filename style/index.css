@@ -255,3 +255,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 800px){
+    .navhead{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .navhead a{
+        border: solid black;
+    }
+    .navhead a:hover{
+        background: gray;
+    }
+    .top-content{  
+        display:flex; 
+        flex-direction: column;
+    }
+    .middle-content{
+        text-align: center;
+    }
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 300px){
+    .navhead{
+        font-size: 3.0rem;
+    }
+    .text-container h2,p{
+        font-size: 3.0rem;
+    }
+    .middle-content h2,.boxes{
+        font-size: 3.0rem;
+    }
+    footer nav a{
+        font-size: 1.5rem;
+    }
+}
