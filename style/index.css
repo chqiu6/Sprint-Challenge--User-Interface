@@ -285,7 +285,11 @@ footer nav a {
     .navhead{
         font-size: 3.0rem;
     }
-    .text-container h2,p{
+    .text-container h2{
+        font-size: 3.0rem;
+        font-weight: bold;
+    }
+    .text-container p{
         font-size: 3.0rem;
     }
     .middle-content h2,.boxes{
