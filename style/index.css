@@ -28,6 +28,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+header a:link{
+    text-decoration: none;  
+}
+.navhead{
+    text-align: center;
+    padding: 2.0rem;
+}
+nav a{
+    padding: 2.5rem;
+}
+
+.bigimg{
+    text-align:center;
+    padding: 1.0rem;
+}
 body {
 	line-height: 1;
 }
@@ -101,15 +118,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 
 .bottom-content {
@@ -143,4 +254,294 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 800px){
+    header{
+       width: 80rem;
+    }
+    .bigimg{
+        width: 100rem;
+    }
+    .navhead img{
+        padding: 10rem;
+    }
+    .navhead{
+        display:flex;
+        flex-direction: column;
+    }
+    .navhead a{
+        border: solid black;
+        font-size: 3.0rem;
+    }
+    .navhead a:hover{
+        background: gray;
+    }
+    .container{
+        width: 100rem;
+    }
+    h2{
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .top-content{  
+        display:flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 100rem;
+        font-size: 3.0rem;
+    }
+    .middle-content{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-content .boxes .box1 {
+        width: 70%;
+        height: 50vh;
+        background: teal;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    .middle-content .boxes .box2 {
+        width: 70%;
+        height: 50vh;
+        background: gold;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .middle-content .boxes .box3 {
+        width: 70%;
+        height: 50vh;
+        background: cadetblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .middle-content .boxes .box4 {
+        width: 70%;
+        height: 50vh;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .middle-content .boxes .box5 {
+        width: 70%;
+        height: 50vh;
+        background: crimson;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .middle-content .boxes .box6 {
+        width: 70%;
+        height: 50vh;
+        background: forestgreen;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle-content .boxes .box7 {
+        width: 70%;
+        height: 50vh;
+        background: darkorchid;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    } 
+    .middle-content .boxes .box8 {
+        width: 70%;
+        height: 50vh;
+        background: hotpink;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle-content .boxes .box9 {
+        width: 70%;
+        height: 50vh;
+        background: indigo;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box10 {
+        width: 70%;
+        height: 50vh;
+        background: dodgerblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .text-container{
+        font-size: 5rem;
+    }
+    footer a{
+        font-size: 5rem;
+    }
+}
+@media (max-width: 300px){
+    header{
+        width: 50rem;    
+    }
+    .navhead{
+        font-size: 3.0rem;
+    }
+    .navhead img{
+        padding: 7rem;
+    }
+    .navhead a{
+        height: 10vh;
+    }
+    .top-content{
+        width: 50rem;
+    }
+    .bigimg{
+        width: 50rem;
+    }
+    .container{
+        width: 50rem;
+    }
+    .text-container h2{
+        font-size: 3.0rem;
+        font-weight: bold;
+    }
+    .text-container p{
+        font-size: 3.0rem;
+    }
+    .middle-content h2,.boxes{
+        font-size: 3.0rem;
+    }
+    footer nav a{
+        font-size: 1.5rem;
+    }
+    .middle-content .boxes .box1 {
+        width: 70%;
+        height: 50vh;
+        background: teal;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    .middle-content .boxes .box2 {
+        width: 70%;
+        height: 50vh;
+        background: gold;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .middle-content .boxes .box3 {
+        width: 70%;
+        height: 50vh;
+        background: cadetblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .middle-content .boxes .box4 {
+        width: 70%;
+        height: 50vh;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .middle-content .boxes .box5 {
+        width: 70%;
+        height: 50vh;
+        background: crimson;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .middle-content .boxes .box6 {
+        width: 70%;
+        height: 50vh;
+        background: forestgreen;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle-content .boxes .box7 {
+        width: 70%;
+        height: 50vh;
+        background: darkorchid;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    } 
+    .middle-content .boxes .box8 {
+        width: 70%;
+        height: 50vh;
+        background: hotpink;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle-content .boxes .box9 {
+        width: 70%;
+        height: 50vh;
+        background: indigo;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    .middle-content .boxes .box10 {
+        width: 70%;
+        height: 50vh;
+        background: dodgerblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
 }
